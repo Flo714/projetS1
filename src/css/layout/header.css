@@ -1,12 +1,12 @@
 
-.header {
+.header2 {
     height: 100vh;
     background-image: url(../../../public/img/Photo_accueil.jpg);
     background-size: cover;
     position: relative;
 }
 
-.header_titre {
+.header_titre2 {
     font-size: var(--titre-accueil);
     font-weight: 400;
     text-align: center;
@@ -14,12 +14,57 @@
 }
 
 .header_fleche {
-    bottom: 0;
-    align-self: center;
+    bottom: 72px;
+    position: absolute;
+    left: calc(50% - 26px);
 }
 
 .header_logo {
     margin-top: 8px;
     margin-left: 13px;
     z-index: 10;
+}
+
+.header {
+    background-color: var(--gris);
+}
+
+.header_start {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_titre {
+    font-size: var(--titre-header);
+    margin-right: 110px;
+    font-weight: 400;
+}
+
+.header_titre_secondaire {
+    font-family: var(--font-familyPT);
+    text-align: center;
+    color: var(--jaune);
+}
+
+.header_soustitre {
+    font-family: var(--font-familyPT);
+    text-align: center;
+    color: var(--jaune);
+    margin-top: -20px;
+}
+
+.header_petit_logo {
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+.header_nom {
+    font-family: var(--font-familyPT);
+    font-size: var(--resume);
+    text-align: center;
+    color: var(--jaune);
+    margin-top: 60px;
+    padding-bottom: 10px;
+
 }
