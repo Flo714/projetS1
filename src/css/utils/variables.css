@@ -1,0 +1,24 @@
+:root {
+ /* Color styles */
+ --gris-clair: rgba(245, 241, 241, 1);
+ --gris: rgba(112, 112, 112, 1);
+ --noir: rgba(0, 0, 0, 1);
+ --jaune: rgba(243, 199, 54, 1);
+ 
+ /* Text-size styles */
+ /* base size: test-16px (16px) */
+ --titre-parties: 1.12rem;
+ --body: 0.94rem;
+ --titre-header: 1.88rem;
+ --menu: 1.56rem;
+ --légendes-images: 0.88rem;
+ --résumé: 1.12rem;
+ --citations: 1.25rem;
+ --test-16px: 1rem;
+
+
+/*Font Family*/
+--font-familyPT: 'PT Sans';
+--font-familyMS: 'Marck script';
+
+}
