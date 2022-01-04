@@ -1,8 +1,161 @@
 /*Page d'accueil*/ 
 
-.accueil_page {
-    top: 0;
-    left: 0;
+.accueil_titre2 {
+    font-family: var(--font-familyPT);
+    color: var(--gris);
+    text-align: center;
+}
+
+.accueil_ligne1 {
+    background-color: var(--jaune);
+    height: 2px;
+    border: none;
+    width: 75%;
+    margin-left: 29%;
+}
+
+.accueil_ligne2 {
+    background-color: var(--jaune);
+    height: 1px;
+    border: none;
+    width: 40%;
+    margin-left: 64%;
+    margin-top: -2px;
+}
+
+.accueil_CP_roman {
+    align-items: center;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.accueil_ligne3 {
+    background-color: var(--jaune);
+    border: none;
+    height: 2px;
+    width: 75%;
+    margin-left: 29%;
+    margin-top: 20px;
+}
+
+/*Carte 1*/
+
+.cards {
+    margin-top: 30px;
+    padding-bottom: 3px;
+    border: dashed;
+    border-radius: 15px;
+    border-color: var(--gris);
+}
+
+.cards_img1 {
     position: absolute;
 }
-/*Fin */
+
+.cards_contenu {
+    margin-left: 27%;
+padding-bottom: 7px;
+}
+
+.cards_titre {
+    font-family: var(--font-familyPT);
+    color: var(--gris);
+    margin-top: 5px;
+    padding-top: -20px;
+
+}
+
+.cards_soustitre {
+    font-family: var(--font-familyPT);
+    font-size: var(--legendes-images);
+    color: var(--gris);
+    margin-top: -20px;
+}
+
+.cards_trait {
+    background-color: var(--jaune);
+    width: 27%;
+    height: 1px;
+    border: none;
+    margin-left: 0;
+    margin-top: -10px;
+}
+
+.cards_description {
+    font-size: var(--cards);
+    color: var(--gris);
+    line-height: 19px;
+    margin-top: -3px;
+
+}
+
+.cards_voir_article {
+    text-decoration: none;
+    color: var(--jaune);
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -17px;
+
+}
+
+.cards2 {
+    margin-top: 30px;
+    padding-left: 3%;
+    padding-bottom: 3px;
+    border: dashed;
+    border-radius: 15px;
+    border-color: var(--gris);
+}
+
+.cards_img2 {
+    position: absolute;
+    margin-left: 61%;
+    margin-top: -35%;
+    z-index: -1;
+}
+
+.cards_contenu2 {
+    margin-right: 30%;
+}
+
+.cards_titre2 {
+    font-family: var(--font-familyPT);
+    color: var(--gris);
+    margin-top: 0px;
+    padding-top: -20px;
+
+}
+
+.cards_soustitre2 {
+    font-family: var(--font-familyPT);
+    font-size: var(--legendes-images);
+    color: var(--gris);
+    margin-top: -20px;
+}
+
+.cards_trait2 {
+    background-color: var(--jaune);
+    width: 40%;
+    height: 1px;
+    border: none;
+    margin-left: 0;
+    margin-top: -15px;
+}
+
+.cards_description2 {
+    font-size: var(--cards);
+    color: var(--gris);
+    line-height: 19px;
+    margin-top: -5px;
+
+}
+
+.cards_voir_article2 {
+    text-decoration: none;
+    color: var(--jaune);
+    position: absolute;
+    margin-left: 36%;
+    margin-top: -25px;
+
+}

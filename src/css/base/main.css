@@ -2,3 +2,13 @@ h1 {
     font-family: var(--font-familyMS);
     color: var(--jaune);
 }
+
+p {
+    font-family: var(--font-familyPT);
+    font-size: var(--body);
+    line-height: 21px;
+}
+
+main {
+    margin: 15px;
+}
