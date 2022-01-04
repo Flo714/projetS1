@@ -6,7 +6,8 @@ h4 {
     font-family: var(--font-familyPT);
     font-size: var(--titre-parties);
     color: var(--jaune);
-    margin-top: 0;
+    font-style: italic;
+    margin-top: 30px;
 }
 
 p {

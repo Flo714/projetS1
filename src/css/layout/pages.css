@@ -39,7 +39,7 @@
     margin-top: 20px;
 }
 
-/*Carte 1*/
+/* Carte 1 et 3 */
 
 .cards {
     margin-top: 30px;
@@ -98,6 +98,8 @@ padding-bottom: 7px;
     margin-top: -17px;
 
 }
+
+/* Carte 2*/
 
 .cards2 {
     margin-top: 30px;
@@ -163,8 +165,8 @@ padding-bottom: 7px;
 
 .article_intro {
     font-family: var(--font-familyPT);
-    color: var(--gris);
     font-style: italic;
+    margin-top: 40px;
 }
 
 .CP_roman_cp_img {
@@ -254,7 +256,7 @@ padding-bottom: 7px;
     padding: 20px 20px
 }
 
-.CP_autres_livres {
+.autres_oeuvre {
     font-family: var(--font-familyPT);
     font-size: var(--resume);
     color: var(--jaune);
@@ -304,7 +306,7 @@ padding-bottom: 7px;
     margin-bottom: 15px;
 }
 
-.CP_savoir_plus {
+.savoir_plus {
     font-family: var(--font-familyPT);
     font-size: 0.90rem;
     font-weight: 600;
@@ -314,7 +316,8 @@ padding-bottom: 7px;
     border: dashed;
     border-color: var(--gris);
     border-radius: 5px;
-    padding: 20px 20px
+    padding: 20px 20px;
+    margin-bottom: 30px;
 }
 
 .article_suivant {
@@ -332,4 +335,44 @@ padding-bottom: 7px;
     border-color: var(--gris);
     border-radius: 5px;
     padding: 10px;
+}
+
+/*Fin pages Central Park*/
+
+.LWS_livre_img {
+    margin-left: -10px;
+}
+
+.LWS_legende_livre {
+    font-family: var(--font-familyPT);
+    font-size: var(--legendes-images);
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.citations_LWS {
+    text-align: center;
+}
+
+.LWS_logo_stratton_img {
+    align-items: center;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.LWS_legende_logo_stratton {
+    font-family: var(--font-familyPT);
+    font-size: var(--legendes-images);
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center; 
+}
+
+.video {
+    align-items: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
 }

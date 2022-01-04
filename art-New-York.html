@@ -4,51 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>L'art à New York - Art & pouvoir</title>
+    <title>Le loup de Wall Street - Art & pouvoir</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <header>
-        <a href="/index.html">
-            <img src="public/icones/building_logo.svg" alt="Logo du Site">
-        </a>
+    <header class="header">
 
-        <h1>Art & pouvoir</h1>
+        <div class="header_start">
+            <a href="/index.html">
+                <img class="header_logo" src="public/icones/building_logo.svg" alt="Logo du Site">
+            </a>
 
-        <button>
-            <span></span>
-        </button>
+            <h1 class="header_titre">Art & pouvoir</h1>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="Central-park.html">Central Park<br>
+             <div class="menu-btn" onclick="documentElement.classList.toggle('menu-open')">
+                <div class="menu-btn_bar"></div>
+             </div>
+
+         </div>
+        
+        <nav class="header_menu menu">
+            <ul class="menu_list">
+
+                <img class="menu_logo" src="public/icones/building_logo.svg" alt="Logo du Site">
+
+                <h1 class="menu_titre">Art & pouvoir</h1>
+
+                <hr class="menu_trait1">
+
+                <li class="menu_item">
+                    <a class="menu_link" href="Central-park.html">Central Park<br>
                     <i>Le Livre</i></a>
                 </li>
 
-                <li>
-                    <a href="Loup-Wall-Street.html">Le loup de Wall Street<br>
+                <hr class="menu_trait2">
+                <hr class="menu_trait3">
+
+                <li class="menu_item">
+                    <a class="menu_link" href="Loup-Wall-Street.html">Le loup de Wall Street<br>
                     <i>Le film</i></a>
                 </li>
 
-                <li>
-                    <a href="art-New-York.html">L'art à New york<br>
+                <hr class="menu_trait2">
+                <hr class="menu_trait3">
+
+                <li class="menu_item">
+                    <a class="menu_link" href="art-New-York.html">L'art à New york<br>
                     <i>Le mini-guide</i></a>
                 </li>
 
-                <li>
-                    <a href="contact.html">Contact</a>
+                <hr class="menu_trait2">
+                <hr class="menu_trait3">
+
+                <li class="menu_item">
+                    <a class="menu_link" href="contact.html">Contact</a>
                 </li>
 
-                <li>
-                    <a href="autres-projets.html">Autre projets</a>
+                <hr class="menu_trait2">
+                <hr class="menu_trait3">
+
+                <li class="menu_item">
+                    <a class="menu_link" href="autres-projets.html">Autre projets</a>
                 </li>
+
+                <hr class="menu_trait1">
             </ul>
         </nav>
 
-        <h2>L’art à New York</h2>
-        <p><i>Le mini-guide</i></p>
+        <h2 class="header_titre_secondaire">L'art à New York</h2>
+        <p class="header_soustitre"><i>Le mini-guide</i></p>
 
-        <p>Soyez curieux !</p>
+        <p class="header_nom">Soyez curieux !</p>
     </header>
 
     <main>

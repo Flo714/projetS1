@@ -5,70 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le loup de Wall Street - Art & pouvoir</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <header>
-        <a href="/index.html">
-            <img src="public/icones/building_logo.svg" alt="Logo du Site">
-        </a>
+    <header class="header">
 
-        <h1>Art & pouvoir</h1>
+        <div class="header_start">
+            <a href="/index.html">
+                <img class="header_logo" src="public/icones/building_logo.svg" alt="Logo du Site">
+            </a>
 
-        <button>
-            <span></span>
-        </button>
+            <h1 class="header_titre">Art & pouvoir</h1>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="Central-park.html">Central Park<br>
+             <div class="menu-btn" onclick="documentElement.classList.toggle('menu-open')">
+                <div class="menu-btn_bar"></div>
+             </div>
+
+         </div>
+        
+        <nav class="header_menu menu">
+            <ul class="menu_list">
+
+                <img class="menu_logo" src="public/icones/building_logo.svg" alt="Logo du Site">
+
+                <h1 class="menu_titre">Art & pouvoir</h1>
+
+                <hr class="menu_trait1">
+
+                <li class="menu_item">
+                    <a class="menu_link" href="Central-park.html">Central Park<br>
                     <i>Le Livre</i></a>
                 </li>
 
-                <li>
-                    <a href="Loup-Wall-Street.html">Le loup de Wall Street<br>
+                <hr class="menu_trait2">
+                <hr class="menu_trait3">
+
+                <li class="menu_item">
+                    <a class="menu_link" href="Loup-Wall-Street.html">Le loup de Wall Street<br>
                     <i>Le film</i></a>
                 </li>
 
-                <li>
-                    <a href="art-New-York.html">L'art à New york<br>
+                <hr class="menu_trait2">
+                <hr class="menu_trait3">
+
+                <li class="menu_item">
+                    <a class="menu_link" href="art-New-York.html">L'art à New york<br>
                     <i>Le mini-guide</i></a>
                 </li>
 
-                <li>
-                    <a href="contact.html">Contact</a>
+                <hr class="menu_trait2">
+                <hr class="menu_trait3">
+
+                <li class="menu_item">
+                    <a class="menu_link" href="contact.html">Contact</a>
                 </li>
 
-                <li>
-                    <a href="autres-projets.html">Autre projets</a>
+                <hr class="menu_trait2">
+                <hr class="menu_trait3">
+
+                <li class="menu_item">
+                    <a class="menu_link" href="autres-projets.html">Autre projets</a>
                 </li>
+
+                <hr class="menu_trait1">
             </ul>
         </nav>
 
-        <h2>Le loup de Wall Street</h2>
-        <p><i>Le film</i></p>
+        <h2 class="header_titre_secondaire">Le loup de Wall Street</h2>
+        <p class="header_soustitre"><i>Le film</i></p>
 
-        <img src="public/icones/icone_film.svg" alt="Icône film">
+        <img class="header_petit_logo" src="public/icones/icone_film.svg" alt="Icône film">
 
-        <p>Martin Scorsese</p>
+        <p class="header_nom">Martin Scorsese</p>
     </header>
-
     <main>
         <p class="article_intro"><i>« Le Loup de Wall Street ». Tel est surnommé l’<strong>escroc</strong>
             Jordan Belfort dans les années 1990 à <strong>New York</strong>.
             C’est ce personnage qui est mis en scène dans le film
             fascinant de Martin Scorsese de 2013. Pour le courtier
             de Wall Street, gloire, argent, femmes et <strong>drogue</strong>
-            deviennent une obsession. Avec le <strong>FBI</strong> à ses trousses,
+            deviennent une obsession. Avec le <strong>FBI</strong> à ses trousses, 
             Jordan va tout faire pour ne pas se faire prendre…</i></p>
 
-        <figure><img src="public/img/le_loup_de_wall_street.jpg" alt="Le loup de Wall Street livre">
-            <figcaption>Affiche du film Le Loup de Wall Street sorti en<br>
+        <figure><img class="LWS_livre_img" src="public/img/le_loup_de_wall_street.jpg" alt="Le loup de Wall Street livre">
+            <figcaption class="LWS_legende_livre">Affiche du film Le Loup de Wall Street sorti en<br>
                 décembre 2013.</figcaption></figure>
 
-        <h3>RÉSUMÉ DU FILM</h3>
+        <h3 class="resume">RÉSUMÉ DU FILM</h3>
 
-        <hr>
+        <hr class="ligne1">
 
         <h4>Les débuts du protagoniste</h4>
         <p>Dans les années 1980, Jordan Belfort travaille en
@@ -96,13 +121,13 @@
 
         <h4>Une obsession : l'argent</h4>
 
-        <q><i>“ Et surtout. N'oubliez pas que trop n'est
-            jamais assez ! ”</i></q>
+        <blockquote class="citations citations_LWS"> Surtout. N'oubliez pas que trop n'est<br>
+            jamais assez ! ” </blockquote>
 
         <p>Tel était le discours de Jordan pour motiver ses
             troupes.</p>
 
-        <hr>
+        <hr class="ligne2">
 
         <p>La société Madden est introduite en bourse par
             Jordan et Donnie. Ils gagnent de cette manière des
@@ -120,8 +145,8 @@
             décide de continuer à la tête de Stratton. Il vient
             d’être papa d’un second enfant, un garçon.</p>
 
-        <figure><img src="public/img/logo_stratton.jpg">
-            <figcaption>Logo de Stratton Oakmont, entreprise montée par
+        <figure><img class="LWS_logo_stratton_img" src="public/img/logo_stratton.jpg">
+            <figcaption class="LWS_legende_logo_stratton">Logo de Stratton Oakmont, entreprise montée par
                 Jordan et Donnie.</figcaption></figure>
 
         <h4>La multiplication des ennuis</h4>
@@ -155,7 +180,7 @@
             de vente lors de conférences.</p>
 
 
-            <iframe width="320" height="200" src="https://www.youtube.com/embed/GT9UfSqBz9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="video" width="320" height="200" src="https://www.youtube.com/embed/GT9UfSqBz9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
         <h4>En quelques mots …</h4>
         <p>À travers ce film de 3 heures, Martin Scorsese nous
@@ -168,9 +193,9 @@
             Manhattan. C'est une occasion de s'immerger à
             nouveau dans cette ville multiculturelle.</p>
 
-        <h3>D'AUTRES FILMS DE MARTIN SCORSESE :</h3>
+        <h3 class="autres_oeuvre">D'AUTRES FILMS DE MARTIN SCORSESE :</h3>
 
-        <hr>
+        <hr class="ligne1">
 
         <figure><img src="public/img/Casino.jpg" alt="Affiche film Casino">
             <figcaption>Casino</figcaption></figure>
@@ -191,31 +216,31 @@
         <figure><img src="public/img/Les_Nerfs_a_vif.jpg" alt="Affiche film Les Nerfs à vif">
             <figcaption>Les Nerfs à vif</figcaption></figure>
 
-        <p>Pour en savoir plus sur les meilleurs films de
+        <p class="savoir_plus">Pour en savoir plus sur les meilleurs films de
             Martin Scorsese, cliquez ici.</p>
 
-        <hr>
+        <hr class="ligne2">
 
-        <p>Ne manquez pas le mini-guide sur New York, qui
+        <p class="article_suivant">Ne manquez pas le mini-guide sur New York, qui
             s'avèrera très pratique pour vous !</p>
 
-        <p><a href="art-New-York.html">LIRE</a></p>
+        <p><a class="lire" href="art-New-York.html">LIRE</a></p>
 
     </main>
-    <footer>
-        <p>PierrePolJ</p>
-        <div>
+    <footer class="footer">
+        <p class="footer_nom">PierrePolJ</p>
+        <div class="footer_reseau">
             <img src="public/icones/fb.svg" alt="Icône Facebook">
             <img src="public/icones/twitter.svg" alt="Icône Twitter">
             <img src="public/icones/insta.svg" alt="Icône Instagram">
             <img src="public/icones/icon_mmi.svg" alt="Icône MMI">
         </div>
 
-        <p>Pour me contacter par mail, cliquez ici</p>
+        <p class="footer_mail">Pour me contacter par mail, cliquez ici</p>
 
-        <hr>
+        <hr class="footer_ligne">
 
-        <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMi de Montbéliard.</p>
+        <p class="footer_mention">Projet réalisé dans le cadre d'un exercice pédagogique au département MMi de Montbéliard.</p>
     </footer> 
 </body>
 </html>
