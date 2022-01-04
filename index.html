@@ -9,38 +9,43 @@
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <a href="/index.html">
-            <img src="public/icones/building_logo.svg" alt="Logo du Site">
+            <img class="header_logo" src="public/icones/building_logo.svg" alt="Logo du Site">
         </a>
 
-        <button>
-            <span></span>
-        </button>
+         <div class="menu-btn" onclick="documentElement.classList.toggle('menu-open')">
+            <div class="menu-btn_bar"></div>
+         </div>
+        
+        <nav class="header_menu menu">
+            <ul class="menu_list">
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="Central-park.html">Central Park<br>
+                <img class="menu_logo" src="public/icones/building_logo.svg" alt="Logo du Site">
+
+                <h1 class="menu_titre">Art & pouvoir</h1>
+
+                <li class="menu_item">
+                    <a class="menu_link" href="Central-park.html">Central Park<br>
                     <i>Le Livre</i></a>
                 </li>
 
-                <li>
-                    <a href="Loup-Wall-Street.html">Le loup de Wall Street<br>
+                <li class="menu_item">
+                    <a class="menu_link" href="Loup-Wall-Street.html">Le loup de Wall Street<br>
                     <i>Le film</i></a>
                 </li>
 
-                <li>
-                    <a href="art-New-York.html">L'art à New york<br>
+                <li class="menu_item">
+                    <a class="menu_link" href="art-New-York.html">L'art à New york<br>
                     <i>Le mini-guide</i></a>
                 </li>
 
-                <li>
-                    <a href="contact.html">Contact</a>
+                <li class="menu_item">
+                    <a class="menu_link" href="contact.html">Contact</a>
                 </li>
 
-                <li>
-                    <a href="autres-projets.html">Autre projets</a>
+                <li class="menu_item">
+                    <a class="menu_link" href="autres-projets.html">Autre projets</a>
                 </li>
             </ul>
         </nav>
@@ -49,7 +54,7 @@
     <main>
         <h1>Art & pouvoir</h1>
 
-        <img src="public/img/Photo_accueil.jpg" alt="Rue de New York">
+        <img class="accueil_photo" src="public/img/Photo_accueil.jpg" alt="Rue de New York">
 
         <img src="public/icones/Fleche_Bas.svg" alt="Flèche vers le bas">
 
