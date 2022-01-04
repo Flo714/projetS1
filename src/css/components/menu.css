@@ -66,13 +66,13 @@
 
 .menu_list {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin-top: -30px;
 }
 
 .menu_item {
-    margin-bottom: 30px;
-    margin-top: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: -30%;
 }
 
 .menu_link {
@@ -82,13 +82,36 @@
     text-decoration: none;
 }
 .menu_titre {
-    margin-top: -150px;
-    margin-bottom: 200px;
-    text-align: center;
+    margin-top: -140px;
+    margin-bottom: 20%;
+    margin-right: 50px;
 }
 .menu_logo {
     top: 8px;
     left: 13px;
     position: absolute;
 
+}
+
+hr {
+    margin-left: -32.5%;
+    margin-top: 15px;
+}
+
+.menu_trait1 {
+    background-color: var(--gris);
+    width: 250px;
+}
+
+.menu_trait2 {
+    background-color: var(--jaune);
+    height: 1px;
+    width: 180px;
+    border: none;
+}
+
+.menu_trait3 {
+    background-color: var(--jaune);
+    height: 2px;
+    border: none;
 }

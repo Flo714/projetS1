@@ -1,4 +1,23 @@
 
+.header {
+    height: 100vh;
+    background-image: url(../../../public/img/Photo_accueil.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.header_titre {
+    font-size: var(--titre-accueil);
+    font-weight: 400;
+    text-align: center;
+    margin-top: 35%;
+}
+
+.header_fleche {
+    bottom: 0;
+    align-self: center;
+}
+
 .header_logo {
     margin-top: 8px;
     margin-left: 13px;
