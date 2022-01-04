@@ -45,3 +45,15 @@ blockquote::after {
     bottom:-3.5rem;
     content: '\201D';
 }
+
+figcaption {
+    font-family: var(--font-familyPT);
+    font-size: var(--legendes-images);
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center; 
+}
+
+ul li {
+    list-style: none;
+}

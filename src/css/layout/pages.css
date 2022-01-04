@@ -176,13 +176,6 @@ padding-bottom: 7px;
     margin-left: -30px;
 }
 
-.CP_legende_roman_cp {
-    font-family: var(--font-familyPT);
-    font-size: var(--legendes-images);
-    font-style: italic;
-    margin-top: 10px;
-}
-
 .resume {
     font-size: var(__resume);
     color: var(--jaune);
@@ -206,18 +199,13 @@ padding-bottom: 7px;
     height: 1.5px;
     width: 60%;
     margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .CP_1ere_couverture_img {
     margin-top: 40px;
     margin-left: -20px;
-}
-
-.CP_legende_1ere_couverture {
-    font-family: var(--font-familyPT);
-    font-size: var(--legendes-images);
-    font-style: italic;
-    margin-top: 10px;
 }
 
 .CP_extrait {
@@ -339,16 +327,10 @@ padding-bottom: 7px;
 
 /*Fin pages Central Park*/
 
+/*Début Page Loup de Wall Street*/
+
 .LWS_livre_img {
     margin-left: -10px;
-}
-
-.LWS_legende_livre {
-    font-family: var(--font-familyPT);
-    font-size: var(--legendes-images);
-    font-style: italic;
-    margin-top: 10px;
-    text-align: center;
 }
 
 .citations_LWS {
@@ -362,17 +344,40 @@ padding-bottom: 7px;
     margin-top: 40px;
 }
 
-.LWS_legende_logo_stratton {
-    font-family: var(--font-familyPT);
-    font-size: var(--legendes-images);
-    font-style: italic;
-    margin-top: 10px;
-    text-align: center; 
-}
-
 .video {
     align-items: center;
     display: block;
     margin: auto;
     margin-top: 30px;
 }
+
+/*Fin Pages Loup de Wall Street*/
+
+/*Début page Art à New York*/
+
+.ANY_new_museum_img {
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+.ANY_lien {
+    color: var(--jaune);
+}
+
+.ANY_park_Central_Park {
+    margin-top: 40px;
+    margin-left: -33px;
+}
+
+.ANY_taureau_img {
+    margin-left: -20px;
+    margin-top: 40px;
+}
+
+.ANY_musée_art {
+    margin-left: -40px;
+    margin-top: 40px;
+}
+
+/* Fin page New York*/
