@@ -2,6 +2,12 @@ h1 {
     font-family: var(--font-familyMS);
     color: var(--jaune);
 }
+h4 {
+    font-family: var(--font-familyPT);
+    font-size: var(--titre-parties);
+    color: var(--jaune);
+    margin-top: 0;
+}
 
 p {
     font-family: var(--font-familyPT);
@@ -11,4 +17,30 @@ p {
 
 main {
     margin: 15px;
+}
+
+blockquote {
+    font-family: var(--font-familyPT);
+    font-size: var(--citations);
+    margin: 1rem 2rem;
+    margin-left: 20px;
+    display: block;
+    position: relative;
+    padding-left: 0px;
+}
+
+blockquote::before {
+    position: absolute;
+    font-size: 5rem;
+    left: -2rem;
+    top:-1rem;
+    content: '\201C';
+}
+
+blockquote::after {
+    position: absolute;
+    font-size: 5rem;
+    right: -0.5rem;
+    bottom:-3.5rem;
+    content: '\201D';
 }

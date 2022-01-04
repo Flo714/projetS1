@@ -157,5 +157,179 @@ padding-bottom: 7px;
     position: absolute;
     margin-left: 36%;
     margin-top: -25px;
+}
 
+/*Fin pages d'accueil*/
+
+.article_intro {
+    font-family: var(--font-familyPT);
+    color: var(--gris);
+    font-style: italic;
+}
+
+.CP_roman_cp_img {
+    align-items: center;
+    display: block;
+    margin: auto;
+    margin-left: -30px;
+}
+
+.CP_legende_roman_cp {
+    font-family: var(--font-familyPT);
+    font-size: var(--legendes-images);
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.resume {
+    font-size: var(__resume);
+    color: var(--jaune);
+}
+
+.ligne1 {
+    background-color: var(--gris);
+    border: none;
+    height: 1.5px;
+    width: 425px;
+    margin-top: -10px
+}
+
+.citations {
+   font-style: italic;
+}
+
+.ligne2 {
+    background-color: var(--jaune);
+    border: none;
+    height: 1.5px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.CP_1ere_couverture_img {
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
+.CP_legende_1ere_couverture {
+    font-family: var(--font-familyPT);
+    font-size: var(--legendes-images);
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.CP_extrait {
+    font-family: var(--font-familyPT);
+    font-size: var(--resume);
+    color: var(--jaune);
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.CP_extrait_suite {
+    font-family: var(--font-familyPT);
+    font-size: var(--body);
+    color: var(--jaune);
+    margin-left: 80px;
+    margin-top: -15px;
+}
+
+.citations2 {
+    font-family: var(--font-familyPT);
+    font-size: 0.8rem;
+    font-style: italic;
+    line-height: 27px;
+}
+
+.CP_achat_livre{
+    font-family: var(--font-familyPT);
+    font-size: 0.90rem;
+    font-weight: 600;
+    color: var(--jaune);
+    text-decoration: underline;
+    text-align: center;
+    border: dashed;
+    border-color: var(--gris);
+    border-radius: 5px;
+    padding: 20px 20px
+}
+
+.CP_autres_livres {
+    font-family: var(--font-familyPT);
+    font-size: var(--resume);
+    color: var(--jaune);
+}
+
+.ligne3 {
+    background-color: var(--jaune);
+    border: none;
+    height: 1.5px;
+    width: 430px;
+    margin-top: -10px
+}
+
+.grid1 {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-top: 30px;
+}
+
+.grid1 figure {
+    margin: 0;
+    padding: 0;
+}
+
+.grid1 figure img {
+    display: block;
+    margin: auto;
+}
+
+.grid1 figcaption {
+    font-family: var(--font-familyPT);
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.grid1 hr {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--jaune);
+    border: none;
+    height: 1.5px;
+    width: 55%;
+    margin-left: 37px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.CP_savoir_plus {
+    font-family: var(--font-familyPT);
+    font-size: 0.90rem;
+    font-weight: 600;
+    color: var(--jaune);
+    text-decoration: underline;
+    text-align: center;
+    border: dashed;
+    border-color: var(--gris);
+    border-radius: 5px;
+    padding: 20px 20px
+}
+
+.article_suivant {
+    font-size: 0.9rem;
+    color: var(--gris);
+    font-weight: 600;
+    text-align: center;
+}
+
+.lire {
+    color: var(--jaune);
+    margin-left: 280px;
+    text-align: center;
+    border: dashed;
+    border-color: var(--gris);
+    border-radius: 5px;
+    padding: 10px;
 }
