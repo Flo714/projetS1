@@ -384,12 +384,34 @@ padding-bottom: 7px;
 
 /*Page contact*/ 
 
-.form_nom {
-    color: var(--jaune);
+.form {
     background-color: var(--gris);
     margin: 10px;
     border-radius: 10px;
     border: none;
-    padding: 3px 3px;
+    padding: 4px 4px;
     width: 95%;
+    box-shadow: 3px 3px 5px var(--gris);
+}
+
+.form::placeholder {
+    font-family: var(--font-familyPT);
+    color: var(--jaune);
+    padding-left: 10px;
+}
+
+.form_message {
+    padding-bottom: 60px;
+}
+
+.form_envoyer {
+    font-family: var(--font-familyPT);
+    color: var(--jaune);
+    margin-left: 80%;
+    margin-top: 15px;
+    background-color: var(--gris);
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    box-shadow: 2px 2px 5px var(--gris);
 }

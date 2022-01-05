@@ -75,8 +75,8 @@
 /*Header page "Contact" et Autres Projets"*/
 
 .header_ligne {
-    background-color: var(--jaune);
     border: none;
-    height: 1.5px;
+    border-top: 1.5px solid  var(--jaune);
+    height: 5.5px;
     margin-top: 30px;
 }

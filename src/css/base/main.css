@@ -18,6 +18,8 @@ p {
 
 main {
     margin: 15px;
+    background-color: var(--gris-clair);
+    top: 0;
 }
 
 blockquote {
