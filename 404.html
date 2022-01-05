@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-<title>404 - Page Non trouvée</title>
-<h1>Page Non trouvée</h1>
-<form action="https://google.com/" method="GET" 
-    x-data="{ q:'', }" 
-    x-on:submit="q = q + ' site:art-pouvoir.flo-demortiere.fr'">
-    <label for="q">Text à chercher :</label>
-    <input type="text" id="q" name="q" x-model="q">
-    <button type="submit">Rechercher</button>
-</form>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Non trouvée</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body class="erreur_fond">
+    <header>
+
+        <div>
+            <a href="/index.html">
+                <img class="logo_erreur" src="public/icones/building_logo.svg" alt="Logo du Site">
+            </a>
+         </div>
+
+        <hr class="erreur_ligne">
+
+    </header>
+<main>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <h1 class="erreur_oups">Oups...</h1>
+    <p class="erreur_texte">Désolé, la page que vous cherchiez<br>
+         n'existe pas ou plus</p>
+    <p class="erreur_recommendation">Vous vouliez peut-être allez sur ces pages :</p>
+
+    <nav><ul>
+        <li class="erreur_liste">
+            <a class="erreur_lien" href="index.html">- Accueil</a>
+        </li>
+        <li class="erreur_liste">
+            <a class="erreur_lien" href="Central-park.html">- Central Park<br>
+                <i>Le Livre</i></a>
+        </li>
+        <li class="erreur_liste">
+            <a class="erreur_lien" href="Loup-Wall-Street.html">- Le loup de Wall Street<br>
+                <i>Le film</i></a>
+        </li>
+        <li class="erreur_liste">
+            <a class="erreur_lien" href="art-New-York.html">- L'art à New york<br>
+                <i>Le mini-guide</i></a>
+        </li>
+        <li class="erreur_liste">
+            <a class="erreur_lien" href="contact.html">- Contact</a>
+        </li>
+        <li class="erreur_liste">
+            <a class="erreur_lien" href="autres-projets.html">- Autres Projets</a>
+        </li>
+    </ul></nav>
+
+    <hr class="erreur_ligne">
+    
+    <p class="erreur_fin">Merci de votre comprehension.</p>
+</main>

@@ -204,7 +204,7 @@ padding-bottom: 7px;
 }
 
 .CP_1ere_couverture_img {
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: -20px;
 }
 
@@ -574,6 +574,8 @@ blockquote.citations2 {
     background-color: var(--gris-clair)
 }
 
+/*Apparition Légende*/
+
 .visionneuse {
 	grid-column: 2;
 	grid-row: 2;
@@ -584,32 +586,44 @@ blockquote.citations2 {
 	overflow: hidden;
 }
 
-.texteapparition {
-    position: relative;
-	text-align: center;
-    width: 100%;
-	margin: 0px;
-	padding: 0px;
-	z-index: 2;
-	line-height: 5em;
-    background-color: rgba(255, 255, 255, 0.55);
-	color: black;
-	top: 0;
-	display: none;
-}
-
 .fond1 {
     position: relative;
-	text-align: center;
-    width: 100%;
-	margin: 0px;
-	padding: 0px;
-	z-index: 2;
-	line-height: 5em;
-    background-color: rgba(255, 255, 255, 0.55);
-	color: black;
-	top: 0;
-	display: none;
+    text-align: center;
+    font-family: var(--font-familyPT);
+    font-style: normal;
+    width: 317px;
+    margin-left: -23px;
+    padding: 1px;
+    z-index: 2;
+    line-height: 4em;
+    background-color: var(--gris);
+    color: var(--jaune);
+    top: 0;
+    display: none;
+}
+
+.fond2 {
+    position: relative;
+    text-align: center;
+    width: 317px;
+    margin-left: -23px;
+    padding: 1px;
+    z-index: 2;
+    line-height: 4em;
+    background-color: var(--gris);
+    color: var(--jaune);
+    top: 0;
+    display: none;
+}
+
+.visionneuse2 {
+	grid-column: 2;
+	grid-row: 2;
+	width: 301px;
+	height: 509px;
+	padding: 1px;
+	position: relative;
+	overflow: hidden;
 }
 
 /* Image qui s'enlève et qui revient en appuyant*/
@@ -626,4 +640,70 @@ blockquote.citations2 {
     position: absolute;
     top: 0;
     right: 40px;
+}
+
+/*Pages 404*/
+
+.logo_erreur {
+    align-items: center;
+    display: block;
+    margin: auto;
+    width: 15%;
+    padding-top: 50px;
+}
+
+.erreur_ligne {
+    background-color: var(--jaune);
+    border: none;
+    height: 1.5px;
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.erreur_oups {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.erreur_texte {
+    font-family: var(--font-familyPT);
+    font-size: 1.25rem;
+    color: var(--jaune);
+    margin: 15px;
+    margin-top: -25px;
+    text-align: center;
+}
+
+.erreur_recommendation {
+    font-family: var(--font-familyPT);
+    font-size: 1rem;
+    color: var(--jaune);
+    margin: 15px;
+    margin-top: 40px;
+}
+
+.erreur_fond {
+    background-color: var(--gris);
+}
+
+.erreur_liste {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.erreur_lien {
+    font-family: var(--font-familyPT);
+    font-size: var(--menu);
+    color: var(--jaune);
+    font-weight: 600;
+}
+
+.erreur_fin {
+    font-family: var(--font-familyPT);
+    font-size: 1.3rem;
+    color: var(--jaune);
+    margin: 15px;
+    margin-top: 40px;
+    text-align: center;
 }
