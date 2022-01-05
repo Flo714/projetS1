@@ -4,51 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Art & pouvoir</title>
+    <title>Le loup de Wall Street - Art & pouvoir</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <header>
-        <a href="/index.html">
-            <img src="public/icones/building_logo.svg" alt="Logo du Site">
-        </a>
+    <header class="header">
 
-        <h1>Art & pouvoir</h1>
+        <div class="header_start">
+            <a href="/index.html">
+                <img class="header_logo" src="public/icones/building_logo.svg" alt="Logo du Site">
+            </a>
 
-        <button>
-            <span></span>
-        </button>
+            <h1 class="header_titre">Art & pouvoir</h1>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="Central-park.html">Central Park<br>
+             <div class="menu-btn" onclick="documentElement.classList.toggle('menu-open')">
+                <div class="menu-btn_bar"></div>
+             </div>
+
+         </div>
+        
+        <nav class="header_menu menu">
+            <ul class="menu_list">
+
+                <img class="menu_logo" src="public/icones/building_logo.svg" alt="Logo du Site">
+
+                <h1 class="menu_titre">Art & pouvoir</h1>
+
+                <hr class="menu_trait1">
+
+                <li class="menu_item">
+                    <a class="menu_link" href="Central-park.html">Central Park<br>
                     <i>Le Livre</i></a>
                 </li>
 
-                <li>
-                    <a href="Loup-Wall-Street.html">Le loup de Wall Street<br>
+                <hr class="menu_trait2">
+                <hr class="menu_trait3">
+
+                <li class="menu_item">
+                    <a class="menu_link" href="Loup-Wall-Street.html">Le loup de Wall Street<br>
                     <i>Le film</i></a>
                 </li>
 
-                <li>
-                    <a href="art-New-York.html">L'art à New york<br>
+                <hr class="menu_trait2">
+                <hr class="menu_trait3">
+
+                <li class="menu_item">
+                    <a class="menu_link" href="art-New-York.html">L'art à New york<br>
                     <i>Le mini-guide</i></a>
                 </li>
 
-                <li>
-                    <a href="contact.html">Contact</a>
+                <hr class="menu_trait2">
+                <hr class="menu_trait3">
+
+                <li class="menu_item">
+                    <a class="menu_link" href="contact.html">Contact</a>
                 </li>
 
-                <li>
-                    <a href="autres-projets.html">Autre projets</a>
+                <hr class="menu_trait2">
+                <hr class="menu_trait3">
+
+                <li class="menu_item">
+                    <a class="menu_link" href="autres-projets.html">Autre projets</a>
                 </li>
+
+                <hr class="menu_trait1">
             </ul>
         </nav>
 
-        <h2>Contact</h2>
+        <h2 class="header_titre_secondaire">Contact</h2>
 
-        <hr>
-
+        <hr class="header_ligne">
     </header>
     <main>
         <p>Je suis PierrePolJ, étudiant en première année de
@@ -62,29 +87,29 @@
             remplissant le formulaire si dessous !</p>
 
         <form>
-            <input type="text" id="Nom" placeholder="Votre nom" size="30px">
-            <input type="text" id="Prénom" placeholder="Votre Prénom" size="30px">
-            <input type="text" id="E-mail" placeholder="Votre e-mail" size="30px">
-            <input type="text" id="Message" placeholder="Votre message" size="30px">
-            <input type="submit" value="Envoyer">
+            <input class="form_nom" type="text" id="Nom" placeholder="Votre nom" size="30px">
+            <input class="form_prenom" type="text" id="Prénom" placeholder="Votre Prénom" size="30px">
+            <input class="form_email" type="text" id="E-mail" placeholder="Votre e-mail" size="30px">
+            <input class="form_message" type="text" id="Message" placeholder="Votre message" size="30px">
+            <input class="form_envoyer" type="submit" value="Envoyer">
         </form>
 
     </main>
-    <footer>
-        <p>PierrePolJ</p>
-        <div>
+    <footer class="footer">
+        <p class="footer_nom">PierrePolJ</p>
+        <div class="footer_reseau">
             <img src="public/icones/fb.svg" alt="Icône Facebook">
             <img src="public/icones/twitter.svg" alt="Icône Twitter">
             <img src="public/icones/insta.svg" alt="Icône Instagram">
             <img src="public/icones/icon_mmi.svg" alt="Icône MMI">
         </div>
 
-        <p>Pour me contacter par mail, cliquez ici</p>
+        <p class="footer_mail">Pour me contacter par mail, cliquez ici</p>
 
-        <hr>
+        <hr class="footer_ligne">
 
-        <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMi de Montbéliard.</p>
+        <p class="footer_mention">Projet réalisé dans le cadre d'un exercice pédagogique au département MMi de Montbéliard.</p>
     </footer> 
-    
 </body>
+</html>
 </html>

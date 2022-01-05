@@ -1,4 +1,4 @@
-
+/*Header pages d'accueil*/
 .header2 {
     height: 100vh;
     background-image: url(../../../public/img/Photo_accueil.jpg);
@@ -18,6 +18,8 @@
     position: absolute;
     left: calc(50% - 26px);
 }
+
+/*Header principal*/
 
 .header_logo {
     margin-top: 8px;
@@ -66,4 +68,15 @@
     color: var(--jaune);
     margin-top: 60px;
     padding-bottom: 10px;
+}
+
+/*Fin header principal*/
+
+/*Header page "Contact" et Autres Projets"*/
+
+.header_ligne {
+    background-color: var(--jaune);
+    border: none;
+    height: 1.5px;
+    margin-top: 30px;
 }

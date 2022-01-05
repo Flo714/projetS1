@@ -381,3 +381,15 @@ padding-bottom: 7px;
 }
 
 /* Fin page New York*/
+
+/*Page contact*/ 
+
+.form_nom {
+    color: var(--jaune);
+    background-color: var(--gris);
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 3px 3px;
+    width: 95%;
+}
