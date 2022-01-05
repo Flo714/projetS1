@@ -34,7 +34,7 @@ blockquote {
     padding-left: 0px;
 }
 
-blockquote::before {
+blockquote.citations::before {
     position: absolute;
     font-size: 5rem;
     left: -2rem;
@@ -42,12 +42,18 @@ blockquote::before {
     content: '\201C';
 }
 
-blockquote::after {
+blockquote.citations::after {
     position: absolute;
     font-size: 5rem;
     right: -0.5rem;
     bottom:-3.5rem;
     content: '\201D';
+}
+
+blockquote.citations2 p {
+    font-size: var(--citations);
+    text-indent: 1.5rem;
+    margin: 0;
 }
 
 figcaption {

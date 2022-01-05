@@ -224,11 +224,12 @@ padding-bottom: 7px;
     margin-top: -15px;
 }
 
-.citations2 {
+blockquote.citations2 {
     font-family: var(--font-familyPT);
     font-size: 0.8rem;
     font-style: italic;
     line-height: 27px;
+    quotes: none;
 }
 
 .CP_achat_livre{
