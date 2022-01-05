@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Art & Pouvoir</title>
+    <script src="https://unpkg.com/alpinejs"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="src/js/fonctions.js"></script>
 
     <link rel="stylesheet" href="src/css/style.css">
 </head>
@@ -72,14 +75,20 @@
     
     </header>
 
-    <main>
+    <main x-data="{firstImgClick : false}" :class="firstImgClick && 'img--click'">
     
         <h2 class="accueil_titre2">LE LIVRE AUGMENTÉ</h2>
 
         <hr class="accueil_ligne1">
         <hr class="accueil_ligne2">
 
-        <img class="accueil_CP_roman" src="public/img/Roman _Central_Park.jpg" alt="Roman Central Park">
+        <div class="changement_image">        
+        <img @click="firstImgClick = !firstImgClick"
+            :class="firstImgClick && 'img--click'" class="accueil_CP_roman" src="public/img/Roman _Central_Park.jpg" alt="Roman Central Park">
+       <img class="img_derriere" @click="firstImgClick = !firstImgClick"
+            :class="firstImgClick && 'img--click2'" src="public/img/Central_park_roman_2.jpg" alt="Roman Central Park"> 
+        </div>
+
 
         <hr class="accueil_ligne3">
 

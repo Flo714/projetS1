@@ -611,3 +611,19 @@ blockquote.citations2 {
 	top: 0;
 	display: none;
 }
+
+/* Image qui s'enlève et qui revient en appuyant*/
+
+.img--click2 {
+    visibility: hidden;
+    z-index: 1;
+}
+
+.changement_image {
+    position: relative;
+}
+.img_derriere {
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
