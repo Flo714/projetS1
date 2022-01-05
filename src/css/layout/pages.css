@@ -421,19 +421,155 @@ padding-bottom: 7px;
 /*Page Autres Projets*/
 
 .autres_projets_logo{
-
-}
-
-.autrs_projets_centrage {
-    border: 2px solid var(--jaune);
+    border: 3px solid var(--jaune);
     border-radius: 100%;
     padding: 10vw;
     padding-top: -10px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.autrs_projets_centrage {
     align-items: center;
     display: block;
     margin: auto;
+    margin-top: -20px;
 }
 
+/*Logo Louis*/
+
 .texte_logo_louis {
+    margin-top: -5px;
+}
+
+/*Logo Camille*/
+
+.texte_logo_cammille {
+    line-height: 23px;
+}
+
+/*Logo Salomé*/
+
+.texte_logo_salome {
+    margin-top: 15px;
+    line-height: 23px;
+}
+
+.logo_salome {
+    margin-left: -3px;
+    line-height: 23px;
+}
+
+/*Logo Quentin*/
+
+.texte_logo_quentin {
+    margin-top: -15px;
+    line-height: 19px;
+}
+
+.logo_quentin {
     margin-top: -50px;
+}
+
+/*Logo Simon*/
+
+.texte_logo_simon {
+    margin-top: -45px;
+    line-height: 19px;
+}
+
+.logo_simon {
+    margin-top: -60px;
+}
+
+/*Logo Clothilde*/
+
+.texte_logo_clothilde {
+    line-height: 19px;
+}
+
+/*Logo Éléonore*/
+
+.texte_logo_eleonore {
+    margin-top: -35px;
+    line-height: 22px;
+}
+
+.logo_eleonore {
+    margin-top: -70px;
+}
+
+/*Logo Magali*/
+
+.texte_logo_magali {
+    margin-top: -45px;
+    line-height: 22px;
+}
+
+.logo_magali {
+    margin-top: -75px;
+}
+
+/*Logo Julien*/
+
+.texte_logo_julien {
+    line-height: 20px;
+}
+
+/*Logo Alexandre*/
+
+.texte_logo_alexandre {
+    margin-top: -20px;
+    line-height: 22px;
+}
+
+/*Logo Charlène*/
+
+.texte_logo_charlene {
+    line-height: 22px;
+}
+
+.logo_charlene {
+    margin-top: -10px;
+}
+
+
+/* Carrousel */
+
+.image img{
+	width: 100%;
+	z-index: 1;
+	position: relative;
+}
+
+.carrousel {
+    grid-column: 2;
+	grid-row: 2;
+    width: 540px;
+	position: relative;
+	overflow: hidden;
+}
+
+.images {
+	width: 6600px;
+	height: 323px;
+	left:0;
+}
+
+.img_carrousel {
+    margin: auto;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 0;
+}
+
+.carrousel_texte {
+    z-index: 15;
 }
