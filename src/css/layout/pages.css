@@ -415,3 +415,25 @@ padding-bottom: 7px;
     padding: 8px;
     box-shadow: 2px 2px 5px var(--gris);
 }
+
+/*Fin Formulaire*/
+
+/*Page Autres Projets*/
+
+.autres_projets_logo{
+
+}
+
+.autrs_projets_centrage {
+    border: 2px solid var(--jaune);
+    border-radius: 100%;
+    padding: 10vw;
+    padding-top: -10px;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+.texte_logo_louis {
+    margin-top: -50px;
+}

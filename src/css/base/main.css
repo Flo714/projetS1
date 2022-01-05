@@ -16,10 +16,12 @@ p {
     line-height: 21px;
 }
 
+body {
+    background-color: var(--gris-clair);
+}
+
 main {
     margin: 15px;
-    background-color: var(--gris-clair);
-    top: 0;
 }
 
 blockquote {
