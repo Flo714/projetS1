@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Central Park-Art & pouvoir</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="src/js/fonction.js"></script>
 </head>
 <body>
     <header class="header">
@@ -88,8 +90,15 @@
             souvient de comment ils sont arrivés ici. Mais en réalité,
             il s'avère que le pianiste n'est pas totalement franc…</p>
 
-        <figure><img class="CP_roman_cp_img" src="public/img/photo_livre.jpg" alt="Livre Central Park">
-        <figcaption class="CP_legende_roman_cp">Photo du roman Central Park - édition Pocket</figcaption></figure>
+        <div class="exemples legendeSurImage">
+            <div class="visionneuse">
+                <div class="image"
+                    onmouseover="monterLegende();"
+                    onmouseleave="descendreLegende();">
+                    <figure><img class="CP_roman_cp_img" src="public/img/photo_livre.jpg" alt="Livre Central Park">
+                        <figcaption class="CP_legende_roman_cp fond1">Photo du roman Central Park - édition Pocket</figcaption></figure></div>
+            </div>
+        </div>
 
         <h3 class="resume">RÉSUMÉ DU ROMAN</h3>
 
